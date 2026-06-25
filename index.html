@@ -261,7 +261,7 @@
     <div class="step" id="step1">
       <div class="step-number">1</div>
       <h2>Reservá tu lugar</h2>
-      <p>Cupos limitados: solo tres clases diagnósticas por semana. El pago confirma tu lugar.</p>
+      <p>Cupos limitados: solo dos clases diagnósticas por semana. El pago confirma tu lugar.</p>
       <div class="price-tag">
         <span class="amount">$30.000</span>
         <span class="currency">ARS</span>
@@ -279,16 +279,33 @@
       <div class="divider-line"></div>
     </div>
 
-    <div class="step step-locked" id="step2">
+    <div style="display:flex; justify-content:center; margin: -8px 0 14px;">
+      <div class="divider-line"></div>
+    </div>
+
+    <div class="step" id="step2b">
       <div class="step-number">2</div>
+      <h2>Enviame tu comprobante</h2>
+      <p>Mandame la captura del pago por WhatsApp. Así confirmo tu lugar antes de que reserves el horario.</p>
+      <a href="https://wa.me/5491145793059?text=Hola%20Roberto%2C%20te%20env%C3%ADo%20el%20comprobante%20de%20pago%20de%20mi%20clase%20diagn%C3%B3stica." target="_blank" rel="noopener" class="btn btn-book" id="proofBtn">
+        Enviar comprobante por WhatsApp
+      </a>
+    </div>
+
+    <div style="display:flex; justify-content:center; margin: -8px 0 14px;">
+      <div class="divider-line"></div>
+    </div>
+
+    <div class="step step-locked" id="step3">
+      <div class="step-number">3</div>
       <h2>Elegí tu horario</h2>
-      <p>Una vez confirmado el pago, elegí entre los horarios disponibles: lunes 16:00 hs, martes 19:00 hs o jueves 15:00 hs (hora Argentina). El sistema convierte automáticamente el horario a tu zona si estás en otro país.</p>
+      <p>Una vez enviado el comprobante, elegí entre los horarios disponibles: lunes 16:00, martes 19:00 o jueves 15:00 hs (hora Argentina). El sistema convierte automáticamente el horario a tu zona si estás en otro país.</p>
       <a href="https://calendly.com/robertoalejandrorey/30min" target="_blank" rel="noopener" class="btn btn-book" id="bookBtn">
         Reservar mi horario
       </a>
       <div class="note">
         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#4A463F" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 8v4M12 16h.01"/></svg>
-        <span>Hacé este paso recién después de pagar — así asegurás tu cupo real entre quienes ya confirmaron.</span>
+        <span>Hacé este paso recién después de enviar el comprobante — así asegurás tu cupo real entre quienes ya confirmaron.</span>
       </div>
     </div>
 
